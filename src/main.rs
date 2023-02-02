@@ -29,5 +29,5 @@ fn main() {
 
     let p = Point::new();
 
-    println!("new Point = {} [Debug: {:?}]", p, p);
+    println!("new Point = {} [#[Derive(Debug)]: {:?}]", p, p);
 }
