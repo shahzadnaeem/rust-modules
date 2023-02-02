@@ -1,4 +1,6 @@
-type Arg = i64;
+// NOTE: Older style `mod.rs` module
+
+pub type Arg = i64;
 
 pub fn add(a: Arg, b: Arg) -> Arg {
     return a + b;

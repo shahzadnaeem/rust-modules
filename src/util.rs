@@ -1,5 +1,4 @@
-pub mod math;
+// util sub-module exports
 
-pub fn util1() -> String {
-    "util1".to_string()
-}
+pub mod cafe;
+pub mod math;

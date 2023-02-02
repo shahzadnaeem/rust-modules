@@ -9,3 +9,7 @@ pub fn rude() -> &'static str {
 fn filthy() -> &'static str {
     return "What's brown and sticky? ... A STICK!";
 }
+
+pub fn util1() -> String {
+    "util1".to_string()
+}
