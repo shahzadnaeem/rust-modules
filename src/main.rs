@@ -12,4 +12,6 @@ fn main() {
     println!("math version = {}", math::version());
 
     println!("It's true. {}\n{}", funs::haha(), funs::rude());
+
+    println!("A util: {}\n", util::util1());
 }
