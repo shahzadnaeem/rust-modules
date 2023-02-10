@@ -9,4 +9,4 @@ pub fn add(a: Arg, b: Arg) -> Arg {
 // How to define separate test file
 #[cfg(test)]
 #[path = "./test.rs"]
-mod test;
+mod test; // this will look for test.rs, so path above is not really needed
